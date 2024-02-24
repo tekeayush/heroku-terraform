@@ -44,6 +44,6 @@ resource "heroku_app" "app" {
 # }
 
 /// Getting UUID
-# output "UUID" {
-#   value = heroku_app.app[0].uuid
-# }
+output "UUID" {
+  value = heroku_app.app[0].uuid
+}
